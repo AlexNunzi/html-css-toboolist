@@ -41,7 +41,7 @@ body{
 
 .buttons-section{
     border-bottom: 2px solid #F6F8F9;
-    margin-bottom: 25px;
+    margin-bottom: 30px;
 }
 
 .button{
@@ -64,8 +64,55 @@ body{
 
 
 .data-container{
-    background-color: red;
-    height: 20px;
-    margin-bottom: 20px;
+    font-weight: normal;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 30px;
     max-width: 80%;
+}
+
+.checkmark{
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    margin-bottom: 12px;
+}
+
+.data-row{
+    line-height: 24px;
+    font-size: 18px;
+}
+
+.checkmark::before{
+    content: '\2713';  
+}
+
+.checked{
+    border: 2px solid #26C2A5;
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+}
+
+.checked::before{
+    color: #26C2A5;
+    content: '\2713';
+}
+
+
+
+.task-description{
+    font-size: 12px;
+    font-weight: normal;
+    color: #FFFFFF;
+    height: 24px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 12px;
+    padding: 0 12px;
+}
+
+.task-blue{
+    background-color: #34A9ED;
 }
