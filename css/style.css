@@ -6,6 +6,8 @@
 
 #header-logo{
     background-color: #FFFFFF;
+    padding: 16px 0px 16px 24px;
+
     font-weight: bold;
     font-family: 'Roboto', sans-serif;
 }
@@ -16,8 +18,54 @@
 }
 
 #logo-text{
-    font-size: 50px;
+    font-size: 60px;
     vertical-align: middle;
 }
 
+body{
+    background-color: #38AAFF;
+}
 
+#container{
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    width: 75%;
+    height: 500px;
+    margin: auto;
+    margin-top: 60px;
+}
+
+.horizontal-centering{
+    padding-left: 80px;
+}
+
+.buttons-section{
+    border-bottom: 2px solid #F6F8F9;
+    margin-bottom: 25px;
+}
+
+.button{
+    border-radius: 6px;
+    padding: 8px 20px;
+    margin: 20px 10px 16px 0;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.button-blue{
+    border: none;
+    background-color: #36AAF5;
+}
+
+.button-white{
+    border: 2px solid #BDC4CA;
+    background-color: #FFFFFF;
+}
+
+
+.data-container{
+    background-color: red;
+    height: 20px;
+    margin-bottom: 20px;
+    max-width: 80%;
+}
