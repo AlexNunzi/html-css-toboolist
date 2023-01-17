@@ -30,9 +30,8 @@ body{
     background-color: #FFFFFF;
     border-radius: 8px;
     width: 75%;
-    height: 500px;
-    margin: auto;
-    margin-top: 60px;
+    padding-bottom: 16px;
+    margin: 60px auto;
 }
 
 .horizontal-centering{
@@ -51,6 +50,7 @@ body{
     font-size: 20px;
     font-weight: bold;
 }
+
 
 .button-blue{
     border: none;
@@ -80,6 +80,7 @@ body{
 .data-row{
     line-height: 24px;
     font-size: 18px;
+    margin-bottom: 16px;
 }
 
 .checkmark::before{
@@ -100,7 +101,19 @@ body{
     content: '\2713';
 }
 
+.unchecked{
+    border: 2px solid #FA230A;
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+}
 
+.unchecked::before{
+    color: #FA230A;
+    content: '\2715';
+}
 
 .task-description{
     font-size: 12px;
@@ -115,4 +128,24 @@ body{
 
 .task-blue{
     background-color: #34A9ED;
+}
+
+.task-purple{
+    background-color: #AB5CE6;
+}
+
+.task-bluegreen{
+    background-color: #2CC6AB; 
+}
+
+.task-orange{
+    background-color: #FA9B00;    
+}
+
+.task-violet{
+    background-color: #EC4A9D;
+}
+
+.task-yellow{
+    background-color: #A3D114;
 }
